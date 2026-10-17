@@ -1,0 +1,43 @@
+{
+  "name": "coinspin",
+  "version": "0.1.0",
+  "description": "MIT-licensed, dependency-free 360 viewer for the web.",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://peternickol.github.io/coinspin/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peternickol/coinspin.git"
+  },
+  "main": "./src/index.js",
+  "module": "./src/index.js",
+  "types": "./coinspin.d.ts",
+  "exports": {
+    ".": {
+      "types": "./coinspin.d.ts",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "coinspin.d.ts",
+    "docs",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "demo": "python3 -m http.server 4174"
+  },
+  "keywords": [
+    "360",
+    "spin",
+    "product",
+    "viewer",
+    "canvas"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  }
+}

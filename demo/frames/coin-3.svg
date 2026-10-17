@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480">
+  <rect width="640" height="480" fill="#f7f4ee"/>
+  <g transform="translate(320 240) scale(0.5000 1)">
+    <ellipse cx="0" cy="0" rx="150" ry="150" fill="#f7f4ee" stroke="#c4a35a" stroke-width="14"/>
+    <ellipse cx="0" cy="0" rx="112" ry="112" fill="none" stroke="#c4a35a" stroke-width="6"/>
+    <text x="0" y="28" text-anchor="middle" font-family="Georgia, serif" font-size="92" fill="#6b5420">5</text>
+  </g>
+  <text x="320" y="446" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" fill="#8a8378">frame 3</text>
+</svg>
