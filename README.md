@@ -24,7 +24,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/images/hero.png" alt="A coin turned partway, with the arc under the picture" width="500">
+  <img src="docs/images/hero.png" alt="The CoinSpin viewer on a gold coin, turned so the reeded edge shows, with the arc under the picture" width="640">
 </p>
 
 CoinSpin shows one still photo, then loads frames as the picture turns. The first request is the poster. A click, a drag, or an arrow key opens the viewer and asks for the current frame and one neighbor on each side.

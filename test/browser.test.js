@@ -60,6 +60,8 @@ async function serve(directory) {
         '.html': 'text/html',
         '.css': 'text/css',
         '.png': 'image/png',
+        '.jpg': 'image/jpeg',
+        '.jpeg': 'image/jpeg',
         '.svg': 'image/svg+xml',
       };
       const type = types[path.extname(target)] || 'application/octet-stream';
@@ -72,7 +74,7 @@ async function serve(directory) {
 }
 
 function frameName(url) {
-  const match = url.match(/coin-(\d+)\.svg/);
+  const match = url.match(/coin-(\d+)\.jpe?g/);
   return match ? Number(match[1]) : 0;
 }
 
