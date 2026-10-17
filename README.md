@@ -23,10 +23,6 @@
   <a href="#license">License</a>
 </p>
 
-<p align="center">
-  <img src="docs/images/hero.png" alt="The CoinSpin viewer on a gold coin, turned so the reeded edge shows, with the arc under the picture" width="640">
-</p>
-
 CoinSpin shows one still photo, then loads frames as the picture turns. The first request is the poster. A click, a drag, or an arrow key opens the viewer and asks for the current frame and one neighbor on each side.
 
 Pass an element and an options object, or mark the element and call `start()`. Types ship in `coinspin.d.ts`.
@@ -70,7 +66,7 @@ Then open `http://127.0.0.1:4174/demo/`.
 
 ## Quick start
 
-The picture above is a frame from the [demo](demo/index.html). `coinspin()` draws the poster immediately and returns the viewer. Frame images stay unloaded until the poster is clicked.
+`coinspin()` draws the poster immediately and returns the viewer. Frame images stay unloaded until the poster is clicked. The [demo](demo/index.html) is the same viewer.
 
 ```js
 import { coinspin } from 'coinspin';
